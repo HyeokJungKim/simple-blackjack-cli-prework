@@ -45,9 +45,8 @@ def hit?(total)
   if (arg == "h")
     deal_card
   elsif (arg == "s")
-  
   end
-
+return display_card_total
 end
 
 def invalid_command
