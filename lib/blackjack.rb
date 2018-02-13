@@ -45,8 +45,6 @@ def hit?(total)
     total += deal_card
   end
   return total
-
-
 end
 
 def invalid_command
@@ -58,5 +56,8 @@ end
 #####################################################
 
 def runner
+  welcome
+  ini = initial_round
+  hit(ini)
   # code runner here
 end
