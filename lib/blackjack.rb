@@ -40,6 +40,7 @@ end
 
 def hit?(total)
   # code hit? here
+  welcome
   prompt_user
   arg = get_user_input
   if (arg == "h")
