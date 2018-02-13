@@ -20,8 +20,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  decision = gets.chomp
-  return decision
+  return gets.chomp
 end
 
 def end_game(total)
