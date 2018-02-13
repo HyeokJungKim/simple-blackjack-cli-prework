@@ -48,6 +48,7 @@ def hit?(total)
     total
   end
   display_card_total(total)
+  return total
 end
 
 def invalid_command
