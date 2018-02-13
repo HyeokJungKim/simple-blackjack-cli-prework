@@ -41,7 +41,13 @@ end
 def hit?(total)
   # code hit? here
   prompt_user
-  get_user_input
+  arg = get_user_input
+  if (arg == "h")
+    deal_card
+  elsif (arg == "s")
+  
+  end
+
 end
 
 def invalid_command
