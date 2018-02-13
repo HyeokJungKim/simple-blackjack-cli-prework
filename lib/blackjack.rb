@@ -62,5 +62,5 @@ def runner
     temp = hit(ini)
     ini = temp
   end
-end_game
+  end_game
 end
