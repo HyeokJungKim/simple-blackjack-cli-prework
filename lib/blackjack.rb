@@ -62,5 +62,6 @@ def runner
     temp = hit?(ini)
     ini = temp
   end
+  display_card_total(ini)
   end_game(ini)
 end
