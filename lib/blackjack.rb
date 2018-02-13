@@ -58,6 +58,8 @@ end
 def runner
   welcome
   ini = initial_round
-  hit(ini)
+  until( ini > 21)
+    temp = hit(ini)
+    ini = temp
   # code runner here
 end
