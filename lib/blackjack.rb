@@ -45,6 +45,7 @@ def hit?(total)
   if (arg == "h")
     total += deal_card
   elsif (arg == "s")
+    total
   end
   display_card_total
 end
