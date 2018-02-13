@@ -61,5 +61,6 @@ def runner
   until( ini > 21)
     temp = hit(ini)
     ini = temp
-  # code runner here
+  end
+end_game
 end
