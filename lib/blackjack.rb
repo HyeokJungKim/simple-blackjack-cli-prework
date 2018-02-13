@@ -47,7 +47,7 @@ def hit?(total)
   elsif (arg == "s")
     total
   end
-  display_card_total
+  display_card_total(total)
 end
 
 def invalid_command
