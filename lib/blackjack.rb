@@ -59,7 +59,7 @@ def runner
   welcome
   ini = initial_round
   until( ini > 21)
-    temp = hit(ini)
+    temp = hit?(ini)
     ini = temp
   end
   end_game
