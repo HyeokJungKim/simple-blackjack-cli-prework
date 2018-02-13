@@ -43,10 +43,10 @@ def hit?(total)
   prompt_user
   arg = get_user_input
   if (arg == "h")
-    deal_card
+    total += deal_card
   elsif (arg == "s")
   end
-return display_card_total
+  display_card_total
 end
 
 def invalid_command
