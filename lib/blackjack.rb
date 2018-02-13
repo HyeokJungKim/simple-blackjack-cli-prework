@@ -42,7 +42,11 @@ def hit?(total)
   # code hit? here
   prompt_user
   arg = get_user_input
-
+  if arg == "h"
+    total += deal_card
+  end
+  display_card_total(total)
+  return total
   # if (arg == "h")
   #   total += deal_card
   # elsif (arg == "s")
