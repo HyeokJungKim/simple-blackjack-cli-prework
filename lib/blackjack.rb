@@ -21,7 +21,7 @@ end
 def get_user_input
   # code #get_user_input here
   decision = gets.chomp
-  puts decision
+  return decision
 end
 
 def end_game
