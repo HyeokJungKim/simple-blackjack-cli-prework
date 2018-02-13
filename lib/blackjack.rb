@@ -41,7 +41,7 @@ end
 def hit?(total)
   # code hit? here
   prompt_user
-  get_user_input = arg
+  arg = get_user_input
 
   if (arg == "h")
     total += deal_card
