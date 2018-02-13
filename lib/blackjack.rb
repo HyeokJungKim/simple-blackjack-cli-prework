@@ -40,6 +40,7 @@ end
 
 def hit?(total)
   # code hit? here
+  prompt_user
 end
 
 def invalid_command
